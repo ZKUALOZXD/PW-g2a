@@ -1,0 +1,68 @@
+.reliability {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 24px 20% 24px 20%;
+  align-items: start;
+}
+
+.reliability-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+}
+
+.reliability-title {
+  font-size: 24px;
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.reliability-element {
+  border-radius: 6px;
+  border: 1px solid transparent;
+  border-right: 1px solid #e0e0e0;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  padding: 4px;
+  transition: 0.5s all;
+}
+.reliability-element:last-child {
+  border-right: 0;
+  border-right: 1px solid transparent;
+}
+
+.reliability-element-title {
+  font-size: 20px;
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.reliability-element-description {
+  font-size: 16px;
+}
+
+.reliability-texts {
+  margin-top: 8px;
+}
+.reliability-element > svg {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+
+.reliability-element:hover {
+  background: white;
+  border: 1px solid #e0e0e0;
+}

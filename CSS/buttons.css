@@ -1,0 +1,48 @@
+:root {
+  --btn-bg-accent: #6202ea;
+  --btn-bg-accent-hover: #7622ec;
+  --btn-bg-primary: #212121;
+  --btn-bg-primary-hover: #424242;
+  --btn-bg-carousel-hover: rgb(216, 216, 216);
+}
+
+.button-primary {
+  text-decoration: none;
+  text-align: center;
+  padding: 11px 47px;
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font: 10px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fcfcfc;
+  background-color: var(--btn-bg-primary);
+  -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
+
+.button-accent {
+  text-decoration: none;
+  text-align: center;
+  padding: 11px 47px;
+  border: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font: 10px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fcfcfc;
+  background-color: var(--btn-bg-accent);
+  -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
+
+.button-primary:hover {
+  background-color: var(--btn-bg-primary-hover);
+}
+.button-accent:hover {
+  background-color: var(--btn-bg-accent-hover);
+}

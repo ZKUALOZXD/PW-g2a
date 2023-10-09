@@ -1,0 +1,144 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 11px;
+  font-weight: 600;
+  color: white;
+}
+
+.arriba,
+.abajo {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  padding: 25px;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}
+
+.logo {
+  margin: 0 12px 0 0;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search {
+  padding: 0;
+  border: 0;
+  width: 25vw;
+  height: 40px;
+  margin: 0 0 0 8px;
+  border-radius: 6px 0 0 6px;
+}
+
+.search-button {
+  padding: 0;
+  border: 0;
+  background-color: #2f82fb;
+  height: 40px;
+  width: 48px;
+  right: 0px;
+  border-radius: 0 6px 6px 0;
+}
+
+.search-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.abajo {
+  column-gap: 8px;
+}
+
+.icon {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background-color: #212121;
+  border: 0;
+  padding: 0;
+}
+
+.GATE h2 {
+  text-align: center;
+}
+.GATE p {
+  text-align: center;
+}
+
+.grid-promos {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 35% 33% 32%;
+  grid-template-rows: 0%;
+}
+
+.grid-left-column {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+}
+.upper-image {
+  margin-right: 26px;
+}
+.lower-image {
+  margin-right: 26px;
+  margin-top: 29px;
+}
+
+.middle-add h2 {
+  text-align: center;
+}
+.middle-add p {
+  text-align: center;
+}
+.info-box-containers {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.info-box-item {
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.info-box-item:last-child {
+  margin-right: 0px;
+}
+
+.info-box-item:hover {
+  background-color: transparent;
+  border: 2px solid black;
+}
+.middle {
+  align-items: center;
+}
